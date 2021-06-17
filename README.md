@@ -21,4 +21,9 @@ f. Sales<br>
 g. Store id<br>
 h. Region<br>
 
-We start by matching the discreet variables. You cannot match discreet variables directly like continuous variables. You need to match stores which have the same common value of the discreet variable. In our case, we can match stores which belong to the same region. This is backed up the assumption that customer behavior varies by region.<br
+We start by matching the discreet variables. You cannot match discreet variables directly like continuous variables. You need to match stores which have the same common value of the discreet variable. In our case, we can match stores which belong to the same region. This is backed up the assumption that customer behavior varies by region.<br>
+
+Now lets move on to matching stores based on continuous trends. To form a fair matching between stores, we will look at 2 measures.<br>
+a. Number of invoices per week for a store (This gives us the foot traffic per week in a store)<br>
+b. Total sales per store per week (This talks about how much revenue is the store generating)<br>
+<b>Note:</b> These measures are not avalable directly in our data, and will have to calcualted using transformation and summarization<br>

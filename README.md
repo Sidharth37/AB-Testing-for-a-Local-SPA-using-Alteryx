@@ -56,7 +56,7 @@ The next part is to divide this data into streams bifurcated by region(East, Wes
 
 <b>Analyze the results</b><br>
 <b>The pipeline for the analysis can be found in the final analysis file</b><br>
-To analyze the results we use the AB analysis module. The control treatment pairs file is divided into 2 parts, one with the treatment units belonging to the $87.99 group, and the other belonging to $76.99 group, these 2 groups are fed into the AB analysis module, which further takes input from the Store_sales_analysis file from before.<b>
+To analyze the results we use the AB analysis module. The control treatment pairs file is divided into 2 parts, one with the treatment units belonging to the $87.99 group, and the other belonging to $76.99 group, these 2 groups are fed into the AB analysis module, which further takes input from the Store_sales_analysis file from before.<br>
 Based on the results, we observed that there was a positive percentage change of 12.2% in gross margin for the treatment group($87.99) for the test period as compared to the comparison period. Where as there was a 24.6% decline for the control group in the test period as compared to the comparison period.<br>
 Coming to $79.99 treatment group, there was a 20.4% decline for the treatment units between the test period and the comparison period, where as the decline for control units was 18.7%.<br>
 Based on this we can say that it would be advisable & profitable to shift the prices to $87.99, but the same can't be inferred for shifting the price to &79.99.   

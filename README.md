@@ -12,11 +12,13 @@ We are part of a team, looking to increase the gross margin for a chain of spas.
 For our experiment, our we have selected the treatment units, and all the other stores(control units) will continue to offer facials at the same old price of $98.99.
 We will match these treatment units to control units based on both continuous variables and discreet variables, but the process of matching them will differ.
 For the selection of variables to used for matching, we start by looking at the list of all the variables present. They are as follows - <br>
-Invoice Number<br>
-Invoice Date <br>
-SKU<br>
-SKU Category<br>
-Gross margin<br>
-Sales<br>
-Store id<br>
-Region<br>
+a. Invoice Number<br>
+b. Invoice Date <br>
+c. SKU<br>
+d. SKU Category<br>
+e. Gross margin<br>
+f. Sales<br>
+g. Store id<br>
+h. Region<br>
+
+We start by matching the discreet variables. You cannot match discreet variables directly like continuous variables. You need to match stores which have the same common value of the discreet variable. In our case, we can match stores which belong to the same region. This is backed up the assumption that customer behavior varies by region.<br
